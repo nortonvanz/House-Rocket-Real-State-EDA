@@ -1,6 +1,6 @@
 # House-Rocket-Real-State-EDA
 
-<img src="" width=70% height=70%/>
+<img src="https://github.com/nortonvanz/House-Rocket-Real-State-EDA/blob/main/src/house_rocket_img.jpg" width=70% height=70%/>
 
 Projeto de Insights de uma empresa do ramo imobiliário.
 
