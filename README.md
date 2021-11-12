@@ -74,9 +74,10 @@ Minha estratégia para resolver esse desafio é:
 1. Compreender o modelo de negócios;
 2. Compreender o problema de negócios;
 3. Coletar os dados;
-4. Realizar a análise exploratória de dados;
-5. Validar hipóteses e gerar insights;
-6. Implantar o dashboard em produção.
+4. Realizar a limpeza dos dados;
+5. Realizar a análise exploratória de dados;
+6. Validar hipóteses e gerar insights;
+7. Implantar o dashboard em produção.
 
 #### 3.3.2 Detalhamento da solução
 Produto de dados ao time de Prospecção: 
