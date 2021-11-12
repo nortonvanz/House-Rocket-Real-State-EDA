@@ -19,7 +19,7 @@ Estima-se que após a entrega do projeto, a House Rocket possa obter aumento de 
 ### 1.3 Demandas de negócio
 
 Produto de dados solicitado pelo time de prospecção: 
-* Dashboard interativo do portfólio disponível, com as todas informações de negócio mais relevantes disponíveis atualmente, para que possam realizar análises e mehorar sua prospecção.
+* Dashboard interativo do portfólio disponível, com todas informações de negócio mais relevantes disponíveis atualmente, para que possam realizar análises e melhorar sua prospecção.
    
 Produto de dados solicitado pelo time de vendas: 
 * Respostas para duas questões:
@@ -59,7 +59,7 @@ Variável | Definição
 
 ## 3. Planejamento da solução
 ### 3.1. Produto final 
-O que será entreque efetivamente?
+O que será entregue efetivamente?
 - Um grande dashboard interativo acessível via navegador, contendo os produtos de dados solicitados pelos times de negócio.
   
 ### 3.2. Ferramentas 
@@ -69,7 +69,7 @@ Quais ferramentas serão usadas no processo?
 - Google Colab.   
   
 ### 3.3 Processo 
-#### 3.1 Estratégia de solução
+#### 3.3.1 Estratégia de solução
 Minha estratégia para resolver esse desafio é:
 1. Compreender o modelo de negócios;
 2. Compreender o problema de negócios;
@@ -78,8 +78,7 @@ Minha estratégia para resolver esse desafio é:
 5. Validar hipóteses e gerar insights;
 6. Implantar o dashboard em produção.
 
-#### 3.2 Detalhamento da solução
-
+#### 3.3.2 Detalhamento da solução
 Produto de dados ao time de Prospecção: 
 * Seções no dashboard interativo, contendo:
   * Lista contendo os imóveis do portfólio, e todas as suas características disponíveis. Deve conter filtro de variáveis desejadas para comparação.
@@ -88,7 +87,7 @@ Produto de dados ao time de Prospecção:
   * Mapa de densidade do portfótio, exibindo o número de imóveis da região conforme o zoom aplicado no mapa.
   * Mapa de densidade de preços, exibindo o valor médio dos imóveis de cada região.
   * Gráfico interativo de preço médio por ano de construção, com filtro de ano de construção mínimo.
-  * Gráfico interativo de preço médio por dia, para imóveis com registros de atualização de preços, com filtro de dataa mínima disponível.
+  * Gráfico interativo de preço médio por dia, para imóveis com registros de atualização de preços, com filtro de data mínima disponível.
   * Gráfico de distribuição de preços dos imóveis, com filtro de preços máximos.
   * Gráficos de distribuição do número de quartos, banheiros, andares e vista para a água, com a possibilidade de filtrar todos os valores existentes.
   
@@ -138,5 +137,5 @@ Melhorias nos dashboars podem ser incrementadas no futuro, avaliando algumas sit
 ## 8 Referências
 * Este Projeto de Insights é parte do curso "Python do Zero ao DS", da [Comunidade DS](https://www.comunidadedatascience.com/comunidade-ds/)
 * O Dataset foi obtido no [Kaggle](https://www.kaggle.com/harlfoxem/housesalesprediction)
-* O significados das variáveis foi obtido no [Geocenter](https://geodacenter.github.io/data-and-lab/KingCounty-HouseSales2015/)
+* Os significados das variáveis foi obtido no [Geocenter](https://geodacenter.github.io/data-and-lab/KingCounty-HouseSales2015/)
 * A imagem utilizada é de uso livre e foi obtida no [Pexels](https://www.pexels.com/)
