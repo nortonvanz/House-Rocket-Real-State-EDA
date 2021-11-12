@@ -8,15 +8,15 @@ Contextualização:
 A House Rocket é uma plataforma digital, que tem como modelo de negócio a compra e a venda de imóveis através da internet.
 
 ## 1. Problema de negócios
-###1.1 Problema
+### 1.1 Problema
 Recentemente, as áreas de prespecção e de vendas da House Rocket receberam novas metas de desempenho. 
 Ambas as áreas estão com dificuldades em cumpri-las, utilizando suas ferramentas tradicionais de trabalho.
 
-###1.2 Objetivo
+### 1.2 Objetivo
 Este projeto de insights tem por objetivo fornecer subsídios para a tomada de decisão aos dois times de negócios.  
 Estima-se que após a entrega do projeto, a House Rocket possa obter aumento de 20 a 30% no seu lucro líquido.
 
-###1.3 Demandas de negócio
+### 1.3 Demandas de negócio
 
 Produto de dados solicitado pelo time de prospecção: 
 * Dashboard interativo do portfólio disponível, com as todas informações de negócio mais relevantes disponíveis atualmente, para que possam realizar análises e mehorar sua prospecção.
@@ -58,18 +58,18 @@ Variável | Definição
 |sqft_lot15 | Tamanho médio dos terrenos em metros quadrados para as 15 casas mais próximas.|
 
 ## 3. Planejamento da solução
-###3.1. Produto final 
+### 3.1. Produto final 
 O que será entreque efetivamente?
 - Um grande dashboard interativo acessível via navegador, contendo os produtos de dados solicitados pelos times de negócio.
   
-###3.2. Ferramentas 
+### 3.2. Ferramentas 
 Quais ferramentas serão usadas no processo?
 - Python 3.8.0;
 - IDE PyCharm;
 - Google Colab.   
   
-###3.3 Processo 
-####3.1 Estratégia de solução
+### 3.3 Processo 
+#### 3.1 Estratégia de solução
 Minha estratégia para resolver esse desafio é:
 1. Compreender o modelo de negócios;
 2. Compreender o problema de negócios;
@@ -78,7 +78,7 @@ Minha estratégia para resolver esse desafio é:
 5. Validar hipóteses e gerar insights;
 6. Implantar o dashboard em produção.
 
-####3.2 Detalhamento da solução
+#### 3.2 Detalhamento da solução
 
 Produto de dados ao time de Prospecção: 
 * Seções no dashboard interativo, contendo:
@@ -106,13 +106,13 @@ Produtos de dados ao time de Vendas:
    
 ## 4. Os 3 principais insights dos dados
 
-####1 Imóveis com vista para o mar são, em média, 212.64% mais caros que os sem vista.
+#### 1 Imóveis com vista para o mar são, em média, 212.64% mais caros que os sem vista.
 * Insight de negócio: Prospectar para compra imóveis com vista para o mar, quando estiverem com valor até 150% maior que imóveis sem vista na mesma região. Aliar outros critérios relevantes como o seu estado de conservação, para a tomada de decisão.
 
-####2 Imóveis com data de construção menor que 1955, são em média apenas 0.79 % mais baratos que os após 1955.
+#### 2 Imóveis com data de construção menor que 1955, são em média apenas 0.79 % mais baratos que os após 1955.
 * Insight de negócio: Prospectar imóveis com data de construção menor de 1955, que tenham passado por reformas, e que estejam com preço no mínimo 10% abaixo da média dos imóveis com ano de construção maior que 1955 na mesma região.
 
-####3 Imóveis reformados na mesma região, tem preços em média 17.49 % maiores que imóveis não reformados.
+#### 3 Imóveis reformados na mesma região, tem preços em média 17.49 % maiores que imóveis não reformados.
 * Insight de negócio: Prospectar imóvies reformados, onde o preço do imóvel seja até 5% maior que a média dos imóveis não reformados da região, nas mesmas condições.
 
 ## 5. Resultados financeiros para o negócio
@@ -129,13 +129,13 @@ O objetivo do projeto foi alcançado, dado que os produtos de dados propostos fo
 
 O dashboard com os produtos de dados em produção pode ser acessado via navegador pelo [Heroku](https://house-rocket-eda.herokuapp.com/) 
 
-##7. Próximos passos
+## 7. Próximos passos
 Melhorias nos dashboars podem ser incrementadas no futuro, avaliando algumas situações:
 * Foram adotados altos critérios para sugestão dos imóveis para a compra (apenas notas 4 e 5, numa escala de 1 a 5). Uma grande quantidade de oportunidades pode existir nos imóveis com avaliações menores.
 * Pode ser analisada se a distância do mar impacta proporcionalmente no preço dos imóveis, e se há oportunidades a partir desta análise.
 * Pode ser estudado em que região há maior valorização de imóveis reformados, a fim de recomendar compra para reforma quando viável, considerando demais métricas de negócio como o estado do imóvel.
 
-##8 Referências
+## 8 Referências
 * Este Projeto de Insights é parte do curso "Python do Zero ao DS", da [Comunidade DS](https://www.comunidadedatascience.com/comunidade-ds/)
 * O Dataset foi obtido no [Kaggle](https://www.kaggle.com/harlfoxem/housesalesprediction)
 * O significados das variáveis foi obtido no [Geocenter](https://geodacenter.github.io/data-and-lab/KingCounty-HouseSales2015/)
