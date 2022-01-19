@@ -29,7 +29,7 @@ Produto de dados solicitado pelo time de vendas:
 ## 2. Premissas de negócio
 - Será utilizado o critério de sazonalidade considerando inverno e verão na análise exploratório de dados. 
 - Todos os produtos de dados entregues devem ser acessíveis via internet e também através de dispositivos móvies.
-- O planejamento da solução será validado com os times de negócio, visando garantir que as soluções desenvolvidas são efetivas úteis na sua tomada de decisão.
+- O planejamento da solução será validado com os times de negócio, visando garantir que as soluções desenvolvidas são efetivas e úteis na sua tomada de decisão.
 
 As variáveis do dataset original são:
 
